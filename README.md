@@ -1,5 +1,20 @@
 # Customer Churn Analysis – Business Analytics Portfolio Project
 
+## 📌 Table of Contents
+- [Project Overview](#project-overview)
+- [Business Objective](#business-objective)
+- [Tools and Technologies](#tools-and-technologies)
+- [Step-by-Step Process](#step-by-step-process)
+- [Exploratory Data Visualizations](#exploratory-data-visualizations)
+- [Key Insights](#key-insights)
+- [Business Value](#business-value)
+- [What I Learned](#what-i-learned)
+- [Conclusion](#conclusion)
+- [Dataset Source](#dataset-source)
+- [License](#license)
+
+---
+
 ## Project Overview
 This project presents a complete end-to-end customer churn analysis using a real-world telecom dataset. It demonstrates key business analytics skills including data cleaning, exploratory data analysis (EDA), predictive modeling, and dashboard development. The objective is to identify key drivers of churn, provide actionable insights for customer retention strategies, and present the results in a visually compelling format.
 
@@ -61,29 +76,35 @@ Telecom companies often struggle with customer retention. High churn rates can s
 ## Exploratory Data Visualizations
 Below are key visuals used during EDA to analyze churn behavior and identify business insights.
 
-### Churn Distribution
+### 📊 Churn Distribution
 
-![Churn Distribution](churn_distribution.png)
+![Churn Distribution](Python_Exploration_Charts/churn_distribution.png)
 
 The dataset shows a noticeable imbalance between retained and churned customers. This imbalance can influence modeling performance and highlights the need to focus on customer retention.
 
-### Churn by Contract Type
+### 📊 Churn by Contract Type
 
-![Churn by Contract Type](churn_by_contract.png)
+![Churn by Contract Type](Python_Exploration_Charts/churn_by_contract.png)
 
 Customers on month-to-month contracts churn significantly more than those with one- or two-year contracts. A key business recommendation is to incentivize long-term contracts through loyalty rewards or pricing benefits.
 
-### Monthly Charges by Churn
+### 📊 Monthly Charges by Churn
 
-![Monthly Charges by Churn](monthly_charges_by_churn.png)
+![Monthly Charges by Churn](Python_Exploration_Charts/monthly_charges_by_churn.png)
 
 Churned customers tend to have higher monthly charges. This could indicate dissatisfaction with pricing. Business teams can evaluate pricing tiers or offer cost-reduction bundles for high-value customers at risk of churning.
 
-### Tenure by Churn
+### 📊 Tenure by Churn
 
-![Tenure by Churn](tenure_by_churn.png)
+![Tenure by Churn](Python_Exploration_Charts/tenure_by_churn.png)
 
 Customers who churned tend to have much lower tenure. This suggests early-stage disengagement and supports strategies such as onboarding journeys, early follow-ups, or welcome offers to improve retention.
+
+---
+
+## 📊 Power BI Dashboard Screenshot
+
+![Churn Analysis Dashboard](PowerBI_Dashboard/dashboard_screenshot.png)
 
 ---
 
@@ -137,6 +158,7 @@ This project demonstrates how structured analytics, combined with stakeholder-or
 
 ## License
 This project is intended for educational and portfolio use.
+
 
 
 
