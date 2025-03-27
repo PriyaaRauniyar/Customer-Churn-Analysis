@@ -63,25 +63,25 @@ Below are key visuals used during EDA to analyze churn behavior and identify bus
 
 ### Churn Distribution
 
-![Churn Distribution](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/churn_distribution.png)
+![Churn Distribution](churn_distribution.png)
 
 The dataset shows a noticeable imbalance between retained and churned customers. This imbalance can influence modeling performance and highlights the need to focus on customer retention.
 
 ### Churn by Contract Type
 
-![Churn by Contract Type](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/churn_by_contract.png)
+![Churn by Contract Type](churn_by_contract.png)
 
 Customers on month-to-month contracts churn significantly more than those with one- or two-year contracts. A key business recommendation is to incentivize long-term contracts through loyalty rewards or pricing benefits.
 
 ### Monthly Charges by Churn
 
-![Monthly Charges by Churn](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/monthly_charges_by_churn.png)
+![Monthly Charges by Churn](monthly_charges_by_churn.png)
 
 Churned customers tend to have higher monthly charges. This could indicate dissatisfaction with pricing. Business teams can evaluate pricing tiers or offer cost-reduction bundles for high-value customers at risk of churning.
 
 ### Tenure by Churn
 
-![Tenure by Churn](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/tenure_by_churn.png)
+![Tenure by Churn](tenure_by_churn.png)
 
 Customers who churned tend to have much lower tenure. This suggests early-stage disengagement and supports strategies such as onboarding journeys, early follow-ups, or welcome offers to improve retention.
 
