@@ -25,41 +25,8 @@ Telecom companies often struggle with customer retention. High churn rates can s
 **Data Visualization:**
 - Power BI: Slicers, KPIs, DAX measures, interactive visuals
 
-**Data Files:**
-- WA_Fn-UseC_-Telco-Customer-Churn.csv (raw dataset)
-- cleaned_telco_churn.csv (processed dataset)
-
 **Others:**
 - Git & GitHub for version control and sharing
-
----
-
-## Folder Structure
-```
-Customer-Churn-Analysis/
-├── Python_Exploration_Charts/
-│   ├── churn_distribution.png
-│   ├── churn_by_contract.png
-│   ├── monthly_charges_by_churn.png
-│   ├── tenure_by_churn.png
-│
-├── PowerBI_Dashboard/
-│   ├── churn_dashboard.pbix
-│   ├── Churn_Analysis_Dashboard.pdf
-│   ├── dashboard_screenshot.png
-│
-├── Cleaned_Dataset/
-│   ├── cleaned_telco_churn.csv
-│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
-├── Python_Scripts/
-│   ├── churn_cleaning.py
-│   ├── churn_eda.py
-│   ├── churn_model.py
-│
-├── Model_Evaluation/
-│   ├── churn_model_results.txt
-```
 
 ---
 
@@ -96,25 +63,25 @@ Below are key visuals used during EDA to analyze churn behavior and identify bus
 
 ### Churn Distribution
 
-![Churn Distribution](Python_Exploration_Charts/churn_distribution.png)
+![Churn Distribution](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/churn_distribution.png)
 
 The dataset shows a noticeable imbalance between retained and churned customers. This imbalance can influence modeling performance and highlights the need to focus on customer retention.
 
 ### Churn by Contract Type
 
-![Churn by Contract Type](Python_Exploration_Charts/churn_by_contract.png)
+![Churn by Contract Type](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/churn_by_contract.png)
 
 Customers on month-to-month contracts churn significantly more than those with one- or two-year contracts. A key business recommendation is to incentivize long-term contracts through loyalty rewards or pricing benefits.
 
 ### Monthly Charges by Churn
 
-![Monthly Charges by Churn](Python_Exploration_Charts/monthly_charges_by_churn.png)
+![Monthly Charges by Churn](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/monthly_charges_by_churn.png)
 
 Churned customers tend to have higher monthly charges. This could indicate dissatisfaction with pricing. Business teams can evaluate pricing tiers or offer cost-reduction bundles for high-value customers at risk of churning.
 
 ### Tenure by Churn
 
-![Tenure by Churn](Python_Exploration_Charts/tenure_by_churn.png)
+![Tenure by Churn](https://github.com/PriyaaRauniyar/Customer-Churn-Analysis/blob/main/Python_Exploration_Charts/tenure_by_churn.png)
 
 Customers who churned tend to have much lower tenure. This suggests early-stage disengagement and supports strategies such as onboarding journeys, early follow-ups, or welcome offers to improve retention.
 
@@ -154,7 +121,12 @@ This project mimics the responsibilities of a business analyst in a real organiz
 ## Conclusion
 This project demonstrates how structured analytics, combined with stakeholder-oriented thinking, can transform raw customer data into powerful business decisions. Through clear visual storytelling, data modeling, and dashboard insights, we can recommend practical actions to reduce churn and retain customers effectively.
 
-By focusing on early customer engagement, personalized offerings, and improving pricing satisfaction, telecom companies can reduce churn and enhance customer loyalty. This project also reflects the analytical mindset and communication skills needed in real-world business analyst roles.
+### Suggested Retention Strategies
+- Offer exclusive loyalty perks to customers on month-to-month plans
+- Create tailored welcome journeys for new customers in their first 3 months
+- Provide proactive customer care to high-risk users (low tenure, high charges)
+- Introduce personalized pricing plans based on usage patterns
+- Run targeted outreach campaigns to fiber optic internet users at risk
 
 ---
 
@@ -165,5 +137,11 @@ By focusing on early customer engagement, personalized offerings, and improving 
 
 ## License
 This project is intended for educational and portfolio use.
+
+
+
+
+
+
 
 
